@@ -1,0 +1,23 @@
+@import '_setting.scss';
+
+.board-content {
+    display: flex;
+    margin: 0 $gap $gap;
+    /*Để khi nhiều column tràn x, tự xuất hiện thanh cuộn ngang*/
+    overflow-x: auto;
+
+    /*Style scrollbar*/
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+
+    &::-webkit-scrollbar:horizontal {
+        height: 11px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $common-element-bg;
+        border-radius: 8px;
+    }
+
+}
