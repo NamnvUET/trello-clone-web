@@ -8,7 +8,7 @@ $column-border-radius: 8px;
 .column {
     flex: 0 0 auto;
     width: 300px;
-    height: cacl(100%- #{$gap});
+    height: calc(100% - #{$gap});
 
     &:not(:first-child) {
         margin-left: $gap;
