@@ -1,12 +1,12 @@
-import React from "react"
+import React from 'react'
 import './AppBar.scss'
 
 function AppBar() {
 
-    return (
-        <nav className='navbar-app'>
+  return (
+    <nav className='navbar-app'>
             App Bar ggg
-        </nav>
-    )
+    </nav>
+  )
 }
 export default AppBar
